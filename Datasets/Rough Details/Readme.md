@@ -1,3 +1,11 @@
+Next meeting points to discuss:
+Some variable descriptions are not provided, so researched on that
+
+
+
+
+
+
 **Guidelines for project:**
 **Datasets can be retrived from:**  
 https://www.data.gov/  
