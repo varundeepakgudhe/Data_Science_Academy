@@ -1,4 +1,4 @@
-# Code book for Crime in Los Angelese Data
+# Code book for Crime in Los Angeles Data
 
 ### 1. Title and Description:
   - **Crime Data from 2020 to present**
