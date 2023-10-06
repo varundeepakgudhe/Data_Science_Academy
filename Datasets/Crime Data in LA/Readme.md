@@ -68,13 +68,19 @@
 | 200110444 | 4/14/2020 0:00 | 2/13/2020 0:00| 1200     | 1    | Central    | 155          | 2        | 845    | SEX OFFENDER REGISTRANT OUT OF COMPLIANCE   | 1501              | 0        | X        | X            | 726      | POLICE FACILITY                            |                |                                                 | AA     | Adult Arrest| 845      |          |          |          | 200 E 6TH ST                               |              | 34.0448  | -118.2474 |
 | 191501505 | 1/1/2020 0:00  | 1/1/2020 0:00 | 1730     | 15   | N Hollywood| 1543         | 2        | 745    | VANDALISM - MISDEAMEANOR ($399 OR UNDER)    | 0329 1402         | 76       | F        | W            | 502      | MULTI-UNIT DWELLING (APARTMENT, DUPLEX, ETC)|                |                                                 | IC     | Invest Cont | 745      | 998      |          |          | 5400 CORTEEN PL                            |              | 34.1685  | -118.4019 |
 
+### 7. Suggested Data Preprocessing:
+  - Remove time from dates
+  - Convert Time variable values to actual time from numeric
+  - Create a new column including both latitude and longitude for easy data visulaizations or location pointing.
+  - Use NA or some string for missing descriptions
+  - Use some unique value for missing codes or leave it blank
 
-### Usage Guidelines:
+### 8. Usage Guidelines:
   - This dataset is intended for public access and use.
   - This dataset is covered by different Terms of Use than Data.gov.
   - Recommendations: This dataset can be used to find the crime trends, their reasons, correlation between crimes and events, future predection of crimes by undertanding crime patterns, visualizations of crime trends over years or places or gender or type of weapons, and many more.
-### Contact Information:
+### 9. Contact Information:
   - Visit this [website](https://data.lacity.org/Public-Safety/Crime-Data-from-2020-to-Present/2nrs-mtv8), go to "About this Dataset" and submit the form "Contact the Owner"
 
-### Access and Download Instructions:
+### 10. Access and Download Instructions:
   - Visit this [website](https://catalog.data.gov/dataset/crime-data-from-2020-to-present) and look at the Downloads and Resources section to see the different formats of the datasets available. Now click on the download tab on the right-most side of the dataset format which you want to download.
