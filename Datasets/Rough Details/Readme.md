@@ -2,7 +2,7 @@ Next meeting points to discuss:
 - Some variable descriptions are not provided, so researched on that and described them.
 - So now there is covid dataset, i have the script to download it but to run the script continously to upload it to github, we have to upload the script in the AWS and should pay for it.
 - Can I work more on this covid dataset, like creating seperate csv files based on country and different different 
-
+- Linkedin Post about the github
 
 
 
