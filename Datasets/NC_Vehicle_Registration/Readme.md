@@ -8,8 +8,7 @@
 ### 2. Metadata:
 
 - **Dataset creator(s) and contributor(s) :** NC Department of Transportation
-- **Distribution rights and licensing information :**
-  - N/A
+- **Distribution rights and licensing information :** N/A
 - **Update frequency :** Monthly
 
 ### 3. Dataset Format:
