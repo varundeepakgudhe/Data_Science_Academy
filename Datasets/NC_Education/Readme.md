@@ -3,7 +3,7 @@
 ### 1. Title and Description:
 
 - **North Carolina's Education Data**
-- This dataset present various educational metrics
+- This dataset present public school enrollment and finances, SAT score, higher education enrollment, educational attainment data for North Carolina and counties.
 
 ### 2. Metadata:
 
@@ -29,9 +29,9 @@
 | Variable  | Description                                                                | Type    |
 | --------- | -------------------------------------------------------------------------- | ------- |
 | Area Name | Geographical area the data belongs to                                      | Text    |
-| Area Type | Classification/Type of area                                                | Text    |
-| Year      | Year for which the data belongs to                                         | Date    |
-| Variable  | Type of educational metric being measured                                  | Text    |
+| Area Type | Classification/Type of area.                                               | Text    |
+| Year      | Year for which the data belongs to.                                        | Date    |
+| Variable  | Type of educational metric being measured.                                 | Text    |
 | Value     | Numerical value corresponding to the variable for the given year and area. | Integer |
 
 ### 6. Example Records:
@@ -46,18 +46,18 @@
 ### 7. Data Quality Assurance Procedures:
 
 - To ensure the accuracy and consistency of the data, follow these steps:
-  - There are some missing values in Value column - Either assign them to 0 or skip those records
-  - There are some records with 5 columns as the Area name is divided into two columns - Either join those two columns into one in that specific records or skip those records
-  - Hint: The records containing either of the above mentioned points are less than 1%
+  - There are some missing values in Value column - Either assign them to 0 or skip those records.
+  - There are some records with 5 columns as the Area name is divided into two columns - Either join those two columns into one in that specific records or skip those records.
+  - Hint: The records containing either of the above mentioned points are less than 1%.
 
 ### 8. Usage Guidelines:
 
 - This dataset is intended for public access and use.
-- <u>Suggested uses of the dataset</u>: This dataset could be used for a variety of analyses, including studying the adoption and distribution of electric vehicles, their impact on the local electricity grid, or the effectiveness of clean vehicle incentives.
+- <u>Suggested uses of the dataset</u>: This dataset could be used for visual data presentations on North Carolina education information. It can also be used to study public school expenditure trends, scores and to forecast future trends.
 
 ### 9. Contact Information:
 
-- Visit this [website](https://linc.osbm.nc.gov/pages/contact/), and submit the form "Contact Us"
+- Visit this [website](https://linc.osbm.nc.gov/pages/contact/), and submit the form "Contact Us".
 
 ### 10. Access and Download Instructions:
 
