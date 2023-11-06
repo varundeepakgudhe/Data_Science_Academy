@@ -22,7 +22,7 @@
 
 | Records | Fields |
 | ------- | ------ |
-| 189K      | 5     |
+| 189K      | 7     |
 
 ### 5. Variable Definitions:
 
@@ -31,7 +31,7 @@
 | Area Name | Geographical area the data belongs to                                      | Text    |
 | Area Type | Classification/Type of area.                                               | Text    |
 | Year      | Year for which the data belongs to.                                        | Text    |
-| Month     | Month for which the data belongs to in the specific year.                  | Text    |
+| Month     | Month for which the data belongs to for the given year.                  | Text    |
 | Variable  | Describes the particular statistic being measured.              | Text    |
 | Value     | Numerical value corresponding to the variable for the given year and area. | Decimal |  
 | Date      | Date for which the data belongs to(YYYY-MM).                               | Date    |
