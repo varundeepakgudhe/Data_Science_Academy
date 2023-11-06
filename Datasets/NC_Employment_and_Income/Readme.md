@@ -39,12 +39,12 @@
 
 ### 6. Example Records:
 
-| Area Name          | Year | Variable                                           | Value  |
-|--------------------|------|----------------------------------------------------|--------|
-| Alleghany County   | 2000 | Automotive Dealer/Service Station Earnings (000s)  | 2,006  |
-| Alleghany County   | 2000 | Health Services Earnings (000s)                    | 15,083 |
-| Aberdeen           | 2015 | Females Age 16 Up in Labor Force                   | 1,753  |
-| Tract 535.07       | 1990 | Unemployed Males Age 16 Up                         | 33     |
+| Area Name          | Area Type | Year | Variable                                           | Value  |
+|--------------------|-----------|------|----------------------------------------------------|--------|
+| Alleghany County   | County | 2000 | Automotive Dealer/Service Station Earnings (000s)  | 2,006  |
+| Alleghany County   | County | 2000 | Health Services Earnings (000s)                    | 15,083 |
+| Aberdeen           | Municipality | 2015 | Females Age 16 Up in Labor Force                   | 1,753  |
+| Tract 535.07       | Tract | 1990 | Unemployed Males Age 16 Up                         | 33     |
 
 ### 7. Usage Guidelines:
 
