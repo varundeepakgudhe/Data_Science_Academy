@@ -1,4 +1,4 @@
-# Code book for Property Tax Rate Dataset
+# Code book for North Carolina Property Tax Rate Dataset
 
 ### 1. Title and Description:
 
