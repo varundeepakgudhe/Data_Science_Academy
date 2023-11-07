@@ -33,7 +33,7 @@
 | Year      | Year for which the data belongs to.                                        | Text    |
 | Month     | Month for which the data belongs to for the given year.                  | Text    |
 | Variable  | Describes the particular statistic being measured.              | Text    |
-| Value     | Numerical value corresponding to the variable for the given year and area. | Decimal |  
+| Value     | Numerical value corresponding to the variable for the given year, month and area. | Decimal |  
 | Date      | Date for which the data belongs to(YYYY-MM).                               | Date    |
 
 ### 6. Example Records:
