@@ -28,10 +28,10 @@
 
 | Variable  | Description                                                                | Type    |
 | --------- | -------------------------------------------------------------------------- | ------- |
-| Area Name | Geographical area the data belongs to                                      | Text    |
+| Area Name | Geographical/Educational area representing the observation                                      | Text    |
 | Area Type | Classification/Type of area.                                               | Text    |
-| Year      | Year for which the data belongs to.                                        | Date    |
-| Variable  | Type of educational metric being measured.                                 | Text    |
+| Year      | Year of the observation.                                        | Date    |
+| Variable  | Type of educational metric being measured - Consists of 48 different levels (as of December 2023).                                 | Text    |
 | Value     | Numerical value corresponding to the variable for the given year and area. | Integer |
 
 ### 6. Example Records:
@@ -46,9 +46,7 @@
 ### 7. Data Quality Assurance Procedures:
 
 - Data accuracy and consistency notes:
-  - There are some missing values in the Value column
-  - There are some records with 5 columns due to the Area name being divided into two columns - You might choose to join these conlumns
-  - Note: The records containing either of the above mentioned points are less than 1%.
+  - Data in the .csv file, as of December 29, 2023 are seperated by the semicolon (`;`) character. 
 
 ### 8. Usage Guidelines:
 
