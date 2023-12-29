@@ -45,10 +45,10 @@
 
 ### 7. Data Quality Assurance Procedures:
 
-- To ensure the accuracy and consistency of the data, follow these steps:
-  - There are some missing values in Value column - Either assign them to 0 or skip those records.
-  - There are some records with 5 columns as the Area name is divided into two columns - Either join those two columns into one in that specific records or skip those records.
-  - Hint: The records containing either of the above mentioned points are less than 1%.
+- Data accuracy and consistency notes:
+  - There are some missing values in the Value column
+  - There are some records with 5 columns due to the Area name being divided into two columns - You might choose to join these conlumns
+  - Note: The records containing either of the above mentioned points are less than 1%.
 
 ### 8. Usage Guidelines:
 
