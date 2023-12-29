@@ -3,7 +3,7 @@
 ### 1. Title and Description:
 
 - **North Carolina's Education Data**
-- This dataset present public school enrollment and finances, SAT score, higher education enrollment, educational attainment data for North Carolina and counties.
+- This dataset contains enrollment, finance, SAT score, educational attainment, and other demographic data for North Carolina Public School areas and counties, including community colleges.
 
 ### 2. Metadata:
 
@@ -28,10 +28,10 @@
 
 | Variable  | Description                                                                | Type    |
 | --------- | -------------------------------------------------------------------------- | ------- |
-| Area Name | Geographical area the data belongs to                                      | Text    |
+| Area Name | Geographical/Educational area representing the observation                                      | Text    |
 | Area Type | Classification/Type of area.                                               | Text    |
-| Year      | Year for which the data belongs to.                                        | Date    |
-| Variable  | Type of educational metric being measured.                                 | Text    |
+| Year      | Year of the observation.                                        | Date    |
+| Variable  | Type of educational metric being measured - Consists of 48 different levels (as of December 2023).                                 | Text    |
 | Value     | Numerical value corresponding to the variable for the given year and area. | Integer |
 
 ### 6. Example Records:
@@ -45,15 +45,13 @@
 
 ### 7. Data Quality Assurance Procedures:
 
-- To ensure the accuracy and consistency of the data, follow these steps:
-  - There are some missing values in Value column - Either assign them to 0 or skip those records.
-  - There are some records with 5 columns as the Area name is divided into two columns - Either join those two columns into one in that specific records or skip those records.
-  - Hint: The records containing either of the above mentioned points are less than 1%.
+- Data accuracy and consistency notes:
+  - Data in the NCeducation.csv file are separated by the semicolon (`;`) character (as of December 29, 2023). 
 
 ### 8. Usage Guidelines:
 
 - This dataset is intended for public access and use.
-- <u>Suggested uses of the dataset</u>: This dataset could be used for visual data presentations on North Carolina education information. It can also be used to study public school expenditure trends, scores and to forecast future trends.
+- <u>Suggested uses of the dataset</u>: This dataset could be used for visual data presentations of North Carolina education information. It can also be used to gain insights into public school expenditure trends, test scores trends, and other contents within the "Variable" column.
 
 ### 9. Contact Information:
 
@@ -61,4 +59,4 @@
 
 ### 10. Access and Download Instructions:
 
-- Click on the above NC_Edu.csv file and download it.
+- Click on the NCeducation.csv file to download the raw data.
