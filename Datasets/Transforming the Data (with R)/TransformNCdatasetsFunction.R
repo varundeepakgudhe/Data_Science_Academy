@@ -25,19 +25,19 @@
 ## analysis among other potential uses.
 
 ######## Steps to Follow #########
-## Step 1: import your data into R (recommended base R read.csv()).
+## Step 1: import your data into R (recommended base R read.csv(), with stringsAsFactors = TRUE).
 
 ## Step 2: run the NCdataTransform function below
 
 NCdataTransform <- function(x)
 {
   colnames(x) <- c("Area.Name", "Area.Type", "Year", "Variable", "Value")
+  x$Variable <- as.factor(x$Variable) ## or read data in w stringsAsFactors = TRUE
   Category <- levels(x$Variable)
   Criteria <- data.frame(unique(x[c("Area.Name","Year")]))
   
   P <- data.frame(matrix(NA, ncol = 3 + length(levels(x$Variable)), nrow = nrow(Criteria) ))
   colnames(P) <- c("Area Name", "Area Type", "Year", Category)
-  A <- data.frame(NA,ncol=2)
   
   n <- 1
   m <- nrow(Criteria)
